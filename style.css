@@ -443,5 +443,26 @@ h3{
     background-color: rgb(179, 3, 53);
     transform: scale(1.10);
 }
+.container4{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+   
+
+}
+.boxdiv1{
+    height: 70%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: black;
+    margin: 115px;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px 20px 20px 20px;
+    grid-gap: 50px;
+}
 
 
