@@ -196,7 +196,7 @@ a:hover{
     
 }
 .myLinkedin:hover{
-    background-color: white;
+    background-color: #ff004f;
 
 }
 .myLinkedin  a i{
@@ -557,15 +557,16 @@ h3{
     background-color: black;
     color: white;
     padding: 0.8rem 2.3rem;
-    box-shadow: 5px 5px 7px 0px rgb(39, 38, 38);
+    box-shadow: 1px 1px 2px 0px rgb(39, 38, 38);
     position: relative;
     z-index: 1; 
     display: flex;
     justify-content: center;
     margin-top:0px;
+    transition: background-color 1s;
 }
 .myGithub:hover{
-    background-color: white;
+    background-color: #ff004f;
 }
 .myGithub a i{
    color: #ff004f;
@@ -626,6 +627,7 @@ h3{
     width: 60%;
     /* background-color: rgb(62, 61, 61); */
     border-radius: 15px;   
+    border: none;
  }
  
 .form{
@@ -635,10 +637,11 @@ h3{
     height: 100%;
     width: 90%;
     background-image: url(image3.jpg);
-    border: 2px solid  rgb(80, 79, 79);
+    /* border: 2px solid  rgb(80, 79, 79); */
     border-radius: 15px;
     padding: 20px 20px 20px 20px;
     /* box-shadow: 5px 5px 7px 0px rgb(39, 38, 38); */
+    border: none;
     
 }
 .form .formfild-container{
@@ -649,12 +652,14 @@ h3{
     flex-direction: column;
     gap:10px;   
     margin-bottom: 0px;
+    border: none;
     
     
     
 }
 .formfild-container{
     border-radius: 15px;
+    border: none;
     
 
 }
@@ -665,6 +670,7 @@ h3{
     
     position: relative;
     z-index: 1;
+    border: none;
 
 }
 .Submit{
@@ -704,6 +710,7 @@ h3{
     /* box-shadow: 5px 5px 7px 0px rgb(39, 38, 38); */
     position: relative;
     z-index: 1;
+    border: none;
 }
 .form h2{
     color: #ff004f;
@@ -712,3 +719,42 @@ h3{
     margin-top: 0px;
     margin-bottom: 10px;
 }
+              /* footer */
+
+.footer{
+    height: 150px;
+    width: 200%;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: -100px;
+    
+}  
+.logo1{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-left: -150px;
+    align-items: center;
+    margin-top: 15px;
+    user-select: none;
+}
+.icon{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -150px;
+    align-items: center;
+    margin-top: 30px;
+    gap:30px;
+    transform: scale(1.6);
+} 
+.icon div a{
+    color: #ff004f;
+} 
+.icon div:hover{
+    transform: scale(2);
+    color: rgb(0, 110, 255);
+}          
