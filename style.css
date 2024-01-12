@@ -759,7 +759,7 @@ h3{
 .icon div a{
     color: #ff004f;
 } 
-.icon div:hover{
+.icon div a i:hover{
     transform: scale(2);
     color: rgb(0, 110, 255);
 }          
